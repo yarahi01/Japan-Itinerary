@@ -1,0 +1,106 @@
+*{
+  box-sizing: border-box;
+}
+header{
+ display: grid;
+ place-items: center;
+ background-color: #ffdef0;
+
+}
+.scoot-up{
+  margin-top: -220px;
+}
+#title{
+  font-size: 40px;
+  color: white ;
+
+}
+
+body{
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background-color: #ffdef0;
+}
+
+nav{
+  background-color: #f54680;
+  color: white;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li{
+  float: left;
+}
+li a{
+  display: block;
+  color: white;
+  font-weight: bold;
+  padding: 10px 16px ;
+}
+li a:hover {
+  background-color: #f39eba;
+}
+
+.containers{
+  border-radius: 20px;
+  margin: 10px 5px 10px 5px;
+  padding: 20px;
+  display: grid;
+  grid-template-rows: repeat(2, 260px);
+  grid-template-columns: repeat(2, 1fr);
+  background-color: #f6bcc4;
+}
+#japan{
+  height: 300px;
+}
+#secondrow{
+  width: 220px;
+}
+.container1{
+  text-align: center;
+  align-self: end;
+}
+.container2{
+  justify-self: center;
+}
+.container3{
+  text-align: center;
+}
+.container4{
+justify-self: center;
+align-self: center;
+}
+footer {
+  background: #f54680;
+  color: #fff;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+button{
+  background-color: #f54680;
+  border: none;
+  height: 50px;
+  width: 120px;
+  border-radius: 8px;
+  font-size: large;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  font-weight: 300px;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 2);
+}
+button:hover{
+  background-color: #fff;
+  color: #f54680;
+  border: 2px solid #f54680;
+}
